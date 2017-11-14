@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+.con{
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 130px;
+	background: black;
+}
+.context{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.context p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.context span{
+	width: 100%;
+	display: block;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+}
+.content{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.cone{
+	width: 308px;
+	height: 308px;
+	margin: 0 auto;
+	background: url(../../imgaes/FEW/1.jpg) no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.cone p{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.55);
+	display: none;
+}
+.cone:hover p{
+	display: block;
+}
+.contw{
+	width: 308px;
+	height: 308px;
+	margin: 20px auto;
+	border: 10px solid white;
+	box-sizing: border-box;
+	background: url(../../imgaes/FEW/2.jpg) no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.contw p{
+	width: 328px;
+	position: absolute;
+	left: -10px;
+	bottom: -10px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.75);
+	display: none;
+}
+.contw:hover p{
+	display: block;
+}
+.conth{
+	width: 308px;
+	height: 209px;
+	margin: 0 auto;
+	border: 10px solid white;
+	box-sizing: border-box;
+	background: url(../../imgaes/FEW/3.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.conth p{
+	width: 328px;
+	position: absolute;
+	left: -10px;
+	bottom: -10px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.75);
+	display: none;
+}
+.conth:hover p{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+

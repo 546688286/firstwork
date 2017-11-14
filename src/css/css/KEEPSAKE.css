@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+.con{
+	width: 1024px;
+	margin: 0 auto;
+	min-width: 980px;
+}
+.contcon{
+	width: 920px;
+	margin-left: 100px;
+}
+.contimg{
+	width: 100%;
+	height: 503px;
+	background: url(../../imgaes/KEEPS/1.jpg) no-repeat;
+	background-size: 100%;
+}
+.conttext{
+	width: 100%;
+	height: 350px;
+	padding-top: 150px;
+	background: rgba(0,0,0,0.35);
+}
+.conttext p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.conttext b{
+	width: 85%;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	display: block;
+	margin: 50px auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+

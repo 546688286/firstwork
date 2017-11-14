@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+.cont{
+	width: 100%;
+	overflow: hidden;
+	background:#f4f4f4;
+}
+.contcon{
+	width: 80%;
+	margin: 0 auto;
+}
+.conleft{
+	width: 100%;
+	margin-bottom: 100px;
+}
+.conleft img{
+	width: 100%;
+	display: block;
+}
+.conright{
+	width: 100%;
+}
+.conright p{
+	width: 100%;
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.conright span{
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

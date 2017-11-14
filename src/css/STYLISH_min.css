@@ -1,0 +1,252 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* css reset*/
+html {
+    color: #000;
+    background: #FFF;
+    font-family: Microsoft YaHei, sans-serif, Arial, '����';
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, strong {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+var, em, i {
+    font-style: normal;
+}
+
+address, caption, cite, code, dfn, em, th, var, optgroup {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+del, ins {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: baseline;
+}
+
+sub {
+    vertical-align: baseline;
+}
+
+legend {
+    color: #000;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+input, button, textarea, select {
+    *font-size: 100%;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "...";
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+.header{
+    width: 100%;
+    height: 170px;
+}
+.header-content{
+    width: 100%;
+    height: 170px;
+    margin: 0 auto;
+}
+.header-pic{
+    width: 100%;
+    height: 124px;
+    float: left;
+}
+.header-pic>img{
+	display: block;
+	width: auto;
+	height: 99.98px;
+	margin-left: 15.5%;
+	margin-top: 2.5%;
+}
+.header-nav{
+    width: 100%;
+    height: 46px;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+}
+.header-nav ul:nth-child(1){
+    width: 100%;
+    height: 46px;
+    display: inline-block;
+    background: black;
+    overflow: hidden;
+    position: relative;
+}
+.header-nav ul:nth-child(2){
+	max-width: 100%;
+	position: absolute;
+	top: 46px;
+    width: 100%;
+    height: 128px;
+    display: inline-block;
+    font-size: 12px;
+    display: none;
+    transition: 1s;
+}
+.header-nav ul:nth-child(2) li{
+	width: 100%;
+	height: 32px;
+    color: white;
+    background: black;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+.header-nav ul:nth-child(2) li:hover a{
+	color: black;
+}
+.header-nav ul:nth-child(1) li{
+	width: 100%;
+	height: 46px;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.header-nav ul:nth-child(1) li:nth-child(1){
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: block;
+}
+.header-nav li span{
+	float: right;
+	margin-right: 10px;
+	font-size: 30px;
+	line-height: 70px;
+}
+.bit_row{
+	width: 100%;
+	float: left;
+	margin-top: -50px;
+	margin-bottom: 80px;
+}
+.bit_roww{
+	width: 80%;
+	margin: 0 10%;
+	overflow: hidden;
+}
+.bit_left{
+	width: 102.39px;
+	height: 20px;
+	float: left;
+	display: none;
+}
+.bit_content{
+	float: left;
+	width: 100%;
+}
+.bit_img{
+	float: left;
+	width: 100%;
+	margin-bottom: -5px;
+}
+.bit_content img{
+	margin: 0 auto;
+	display: block;
+	width: auto;
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid black;
+    overflow: hidden;
+}
+.footer-content{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 97px;
+}
+.footer-content span{
+    color: rgba(4, 4, 4, 0.3);
+}

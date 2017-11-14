@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+.con{
+	width: 100%;
+}
+.conten{
+	width: 100%;
+	background: black;
+	padding-bottom: 100px;
+}
+.conleft{
+	width: 100%%;
+}
+.conleftf{
+	width: 235px;
+	height: 235px;
+	border: 5px solid white;
+	margin: 0 auto -50px;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.conleftf img{
+	width: 100%;
+	display: block;
+}
+.conleftf p{
+	width: 235px;
+	line-height: 40px;
+	position: absolute;
+	bottom: -5px;
+	left: -5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	z-index: 50;
+	background:rgba(0,0,0,0.55);
+	display: none;
+}
+.conright{
+	width: 100%;
+}
+.conright p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-top: 70px;
+}
+.conright span{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

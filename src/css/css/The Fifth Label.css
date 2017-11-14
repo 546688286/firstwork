@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+.con{
+	width: 1024px;
+	margin: 0 auto;
+}
+.conten{
+	width: 920px;
+	margin-left: 100px;
+	overflow: hidden;
+	background: black;
+	padding-top: 50px;
+	padding-bottom: 140px;
+}
+.conleft{
+	width: 35%;
+	float: left;
+}
+.conleftf{
+	width: 235px;
+	height: 235px;
+	border: 5px solid white;
+	margin-left: 30px;
+	margin-top: 40px;
+	position: relative;
+	box-sizing: border-box;
+}
+.conleftf img{
+	width: 100%;
+	display: block;
+}
+.conleftf p{
+	width: 235px;
+	line-height: 40px;
+	position: absolute;
+	bottom: -5px;
+	left: -5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	background: rgba(0,0,0,0.75);
+	display: none;
+}
+.conleftf:hover .hovep{
+	display: block;
+}
+.conright{
+	width: 60%;
+	float: left;
+}
+.conright p{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.conright span{
+	width: 100%;
+	display: block;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

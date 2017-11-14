@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+}
+.hover p:nth-of-type(1){
+	color: #9D9D9D;
+}
+.cont{
+	width: 1024px;
+	margin: 0 auto;
+}
+.contcon{
+	width: 920px;
+	margin-left: 104px;
+	background:#f4f4f4;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	overflow: hidden;
+}
+.conleft{
+	width: 49%;
+	float: left;
+}
+.conleft img{
+	width: 80%;
+	display: block;
+}
+.conright{
+	width: 50%;
+	float: right;
+	margin-right: 1%;
+}
+.conright p{
+	width: 100%;
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.conright span{
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
